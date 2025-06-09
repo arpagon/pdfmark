@@ -4,7 +4,7 @@ Interactive watermark generator for images and documents with beautiful gradient
 
 ## 🌐 Live Tool
 
-**Try the interactive watermark tool:** https://arpagon.github.io/pdfmark/
+**Try the interactive watermark tool:** [https://arpagon.github.io/pdfmark/index.html](https://arpagon.github.io/pdfmark/index.html)
 
 Load images, adjust parameters in real-time, and export watermarked images directly from your browser!
 
@@ -18,7 +18,7 @@ Load images, adjust parameters in real-time, and export watermarked images direc
 
 ## Usage
 
-Simply visit https://arpagon.github.io/pdfmark/ and:
+Simply visit [the watermark tool](https://arpagon.github.io/pdfmark/index.html) and:
 
 1. Load your image
 2. Adjust watermark parameters
