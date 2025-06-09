@@ -1,45 +1,28 @@
 # PDFMark
 
-A tool to add beautiful gradient watermarks to PDF files using wave patterns and rainbow colors.
+Interactive watermark generator for images and documents with beautiful gradient wave patterns and rainbow colors.
 
-## 🌐 Live Preview Tool
+## 🌐 Live Tool
 
-**Try the interactive watermark preview tool:** https://arpagon.github.io/pdfmark/watermark_preview.html
+**Try the interactive watermark tool:** https://arpagon.github.io/pdfmark/
 
 Load images, adjust parameters in real-time, and export watermarked images directly from your browser!
 
-## ⚠️ Current Status
-
-**Note**: The Python CLI watermarking process is currently under development and may not work correctly. Use the web preview tool for reliable watermark generation.
-
 ## Features
 
-- Add gradient wave pattern watermarks to PDF files
-- Rainbow color scheme inspired by modern design patterns
-- Simple command-line interface
-- Preserves original PDF quality
-
-## Installation
-
-Make sure you have `uv` installed, then:
-
-```bash
-git clone https://github.com/arpagon/pdfmark.git
-cd pdfmark
-uv sync
-```
+- Interactive web-based watermark editor
+- Rainbow gradient wave patterns
+- Real-time parameter adjustment
+- Direct image export
+- No installation required
 
 ## Usage
 
-```bash
-uv run pdfmark input.pdf output.pdf
-```
+Simply visit https://arpagon.github.io/pdfmark/ and:
 
-## Requirements
+1. Load your image
+2. Adjust watermark parameters
+3. Preview in real-time
+4. Export watermarked result
 
-- Python 3.8+
-- uv package manager
-
-## Dependencies
-
-The tool uses modern Python libraries for PDF manipulation and graphics generation to create wave-pattern watermarks with gradient colors.
+The tool works entirely in your browser with no server dependencies.

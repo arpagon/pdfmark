@@ -4,30 +4,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-PDFMark is a Python tool that adds gradient wave pattern watermarks to PDF files using rainbow colors. The project uses modern Python libraries for PDF manipulation and graphics generation.
-
-## Development Commands
-
-- **Install dependencies**: `uv sync`
-- **Run the tool**: `uv run python main.py input.pdf output.pdf`
-- **Create sample PDF**: `uv run python sample.py`
-- **Install as package**: `uv pip install -e .` (then use `uv run pdfmark`)
-
-## CLI Options
-
-- `--opacity, -o`: Watermark opacity (0.1-1.0, default: 0.3)
-- `--waves, -w`: Number of wave cycles (default: 3)
+PDFMark is an interactive web-based watermark generator that creates beautiful gradient wave patterns with rainbow colors. The tool runs entirely in the browser with no server dependencies.
 
 ## Project Structure
 
-- `main.py`: Typer CLI interface with argument validation
-- `watermark.py`: Core watermarking functionality with rainbow gradients and wave patterns
-- `sample.py`: Utility to create test PDF files
-- Uses `uv` package manager with modern Python dependencies
+- `index.html`: Interactive watermark editor with real-time preview
+- Web-based implementation using HTML5 Canvas and JavaScript
+- No backend dependencies or installation required
 
-## Key Architecture
+## Key Features
 
-- **Rainbow Gradient Generation**: HSV color space conversion for smooth rainbow transitions
-- **Wave Pattern Creation**: Mathematical sine wave generation with polygon filling
-- **PDF Processing**: PyPDF2 for reading/writing, ReportLab for watermark overlay
-- **Image Processing**: PIL for gradient creation and alpha blending
+- **Interactive Editor**: Real-time parameter adjustment
+- **Rainbow Gradients**: Smooth HSV color space transitions  
+- **Wave Patterns**: Mathematical sine wave generation
+- **Image Processing**: Canvas-based manipulation and export
+- **Direct Export**: Download watermarked images immediately
